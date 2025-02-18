@@ -5,6 +5,7 @@
 
 ## Project Structure 
 
+```
 nz-podcast-knowledge-graph/
 ├── src/
 │   ├── api_client.py       # Podcast Index API data fetcher
@@ -18,6 +19,7 @@ nz-podcast-knowledge-graph/
 │   └── DESIGN.md           # Knowledge graph schema
 ├── tests/                  # Unit & integration tests
 └── requirements.txt        # Python dependencies
+```
 
 ## Data Sources
 Data sourced from Podcast Index.
