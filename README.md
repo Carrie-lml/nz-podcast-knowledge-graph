@@ -8,7 +8,7 @@
 ```
 nz-podcast-knowledge-graph/
 ├── src/
-│   ├── api_client.py       # Podcast Index API data fetcher
+│   ├── db.pkl              # Download the full podcast index sqlite file
 │   ├── data_processor.py   # Cleans data & extracts entities
 │   └── kg_builder.py       # Neo4j knowledge graph builder
 ├── data/
@@ -23,6 +23,9 @@ nz-podcast-knowledge-graph/
 
 ## Data Sources
 Data sourced from Podcast Index.
+You can download the full podcast index as [a sqlite3 file](https://podcastindex.org/)
+Or using API to access the database
+For this example I download the database
 
 ## How to Contribute
 Fork the repository.  
